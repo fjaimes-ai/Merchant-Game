@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Merchant Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Merchant Game</h1>
+
+    <div id="layout">
+
+        <!-- Left Column -->
+        <div id="left-column">
+
+            <!-- Current Location + Travel -->
+            <h2>Current Town</h2>
+            <p id="townName"></p>
+            <div id="travel"></div>
+
+            <!-- Player Stats -->
+            <h2>Your Gold</h2>
+            <p id="gold"></p>
+
+            <h2>Your Inventory</h2>
+            <p id="inventory"></p>
+
+            <!-- Market -->
+            <h2>Market</h2>
+            <div id="market"></div>
+
+        </div>
+
+        <!-- Right Column: Message Log -->
+        <div id="right-column">
+            <h2>Message Log</h2>
+            <div id="message-log"></div>
+        </div>
+
+    </div>
+
+    <!-- Buy Confirmation Overlay -->
+    <div id="overlay">
+        <div id="overlay-box">
+            <p id="overlay-message"></p>
+            <button id="overlay-confirm">Confirm</button>
+            <button id="overlay-cancel">Cancel</button>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
