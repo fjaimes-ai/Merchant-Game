@@ -46,4 +46,4 @@ Check that `styles.css` is in the same folder as `index.html` and that the filen
 
 ## Author
 
-Created as a beginner-friendly trading game project.
+Created as a beginner-friendly trading game project made by a curious and aspiring coder.
